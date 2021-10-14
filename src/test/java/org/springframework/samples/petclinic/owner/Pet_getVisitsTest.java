@@ -11,7 +11,7 @@ import static org.junit.Assume.assumeTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @RunWith(Theories.class)
-public class Pet_getVisitTest {
+public class Pet_getVisitsTest {
 
 	@DataPoint
 	public static LocalDate v1 = LocalDate.of(2021, 10, 11);
