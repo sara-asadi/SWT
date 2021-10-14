@@ -48,11 +48,6 @@ class OwnerTest {
 	}
 
 	@Test
-	public void Owner_with_no_pets_returns_null() {
-		assertNull(owner.getPet("cat"));
-	}
-
-	@Test
 	public void New_pet_not_found_if_we_ignore_new_pets() {
 		owner.addPet(cat);
 		assertNull(owner.getPet("cat", true));
@@ -76,4 +71,5 @@ class OwnerTest {
 		owner.addPet(cat);
 		assertNull(owner.getPet("dog"));
 	}
+
 }
